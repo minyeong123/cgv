@@ -1,0 +1,51 @@
+.first {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/bac.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.first > .contents {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first > .contents > h4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.first > .contents > span {
+  font-size: 30px;
+}
+.first > .contents > .box > button {
+  border: none;
+  border-radius: 50px;
+  padding: 7px 7px;
+  height: 100%;
+  width: 100px;
+}
+.first > .contents > .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.first > .contents > .box > .icon {
+  border: 1px solid white;
+  border-radius: 999px;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 760px) {
+  .first > .contents {
+    text-align: center;
+  }
+  .first > .contents > .box {
+    display: flex;
+    justify-content: center;
+  }
+}

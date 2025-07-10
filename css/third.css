@@ -1,0 +1,81 @@
+.third {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 50vh;
+}
+.third > .contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.third > .contents > .con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.third > .contents > h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.third > .contents > span {
+  font-size: 32px;
+  color: gray;
+}
+.third > .contents > .con > i {
+  border: 1px solid rgb(168, 165, 165);
+  border-radius: 999px;
+  padding: 10px 10px;
+}
+.third > .contents > .con > button {
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.third > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.third > .container > .card {
+  border-radius: 15px;
+}
+.third > .container > .card > .box {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.third > .container > .card > .box > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.third > .container > .card > .box > img:hover {
+  transform: scale(1.1);
+}
+.third > .container > .card > h4 {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.third > .container > .card > span {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 760px) {
+  .third > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}

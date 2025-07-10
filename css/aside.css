@@ -1,0 +1,21 @@
+aside {
+  position: fixed;
+  right: 500px;
+  bottom: 100px;
+  z-index: 10;
+}
+aside > button {
+  background-color: rgb(218, 82, 82);
+  border: none;
+  border-radius: 30px;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+  aside {
+    position: fixed;
+    right: 100px;
+  }
+}
