@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .first > .contents {
   width: 100%;
