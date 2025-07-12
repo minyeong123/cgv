@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  height: 50vh;
+  padding-bottom: 50px;
 }
 .third > .contents {
   display: flex;
@@ -24,18 +24,20 @@
   color: gray;
 }
 .third > .contents > .con > i {
-  border: 1px solid rgb(168, 165, 165);
+  border: 1px solid rgb(213, 202, 202);
   border-radius: 999px;
   padding: 10px 10px;
+  font-size: 20px;
 }
 .third > .contents > .con > button {
-  border: 1px solid gray;
+  border: 1px solid rgb(213, 202, 202);
   border-radius: 50px;
   background-color: white;
-  padding: 10px 25px;
+  padding: 10px 18px;
   display: flex;
   align-items: center;
   gap: 20px;
+  font-size: 18px;
 }
 
 .third > .container {

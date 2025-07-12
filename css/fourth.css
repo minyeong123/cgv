@@ -1,0 +1,84 @@
+.fourth > .contest{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.fourth > .contest > h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.fourth > .contest > button{
+    border: 1px solid rgb(213, 202, 202);
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 18px;
+    font-size: 18px;
+}
+.fourth > .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.fourth > .container > .box{
+    background-image: url("../images/qqq.jpg");
+    width: 700px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px;
+}
+.fourth > .container > .box > h3{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.fourth > .container > .box > span {
+    font-size: 20px;
+}
+.fourth > .container > .cards {
+    display: flex;
+    flex-direction: column;
+}
+.fourth > .container > .cards > .card{
+    border: 1px solid rgb(207, 197, 197);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding: 27px 130px;    
+    gap: 200px;
+}
+.fourth > .container > .cards > .card > h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+@media screen and (max-width:760px) {
+    .fourth > .container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth > .container > .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.fourth > .container > .cards > .card:hover{
+    .box{
+         background-image: url("../images/aa.png");
+    }
+  
+}

@@ -2,6 +2,11 @@ header {
   border-bottom: 3px solid red;
   padding: 30px;
 }
+header > .con{
+  width: 100%;
+  border-bottom: 1px solid rgb(219, 210, 210);
+  margin-bottom: 30px;
+}
 nav {
   width: 100%;
   max-width: 1300px;
