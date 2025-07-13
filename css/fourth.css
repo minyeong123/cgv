@@ -1,3 +1,6 @@
+.fourth {
+    border: 1px solid black;
+}
 .fourth > .contest{
     width: 100%;
     max-width: 1300px;
@@ -50,18 +53,32 @@
 .fourth > .container > .cards {
     display: flex;
     flex-direction: column;
+    width: 700px;
 }
 .fourth > .container > .cards > .card{
     border: 1px solid rgb(207, 197, 197);
     border-left: none;
     border-right: none;
+    height: 100%;
     display: flex;
-    padding: 27px 130px;    
-    gap: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: white;
+}
+.fourth > .container > .cards > .card:hover{
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .fourth > .container > .cards > .card > h4{
     font-size: 25px;
     font-weight: bold;
+}
+.fourth > .container > .cards > .card > span{
+    font-size: 20px;
+    background-color: rgb(232, 229, 229);
+    border-radius: 5px;
+    padding: 5px 5px;
 }
 @media screen and (max-width:760px) {
     .fourth > .container {
@@ -75,10 +92,4 @@
         justify-content: center;
         align-items: center;
     }
-}
-.fourth > .container > .cards > .card:hover{
-    .box{
-         background-image: url("../images/aa.png");
-    }
-  
 }
