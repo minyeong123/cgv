@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 .third {
   width: 100%;
   max-width: 1300px;
@@ -19,6 +25,7 @@
 .third > .contents > h2 {
   font-size: 32px;
   font-weight: bold;
+  font-family: 'TheJamsil5Bold';
 }
 .third > .contents > span {
   font-size: 32px;
@@ -69,6 +76,7 @@
   font-size: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 .third > .container > .card > span {
   font-size: 16px;

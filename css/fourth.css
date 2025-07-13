@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 .fourth {
-    border: 1px solid black;
+    height: 70vh;
 }
 .fourth > .contest{
     width: 100%;
@@ -13,6 +19,7 @@
 .fourth > .contest > h4 {
     font-size: 32px;
     font-weight: bold;
+    font-family: 'TheJamsil5Bold';
 }
 .fourth > .contest > button{
     border: 1px solid rgb(213, 202, 202);
